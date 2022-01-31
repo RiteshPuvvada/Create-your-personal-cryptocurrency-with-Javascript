@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+body{
+  background: #909e84;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.head{
+  font-family: 'Sedgwick Ave',cursive;
+  color: #e8b38c;
+}
+
+.Pub{
+  font-family: 'Elsie',cursive;
+  color: #75654c;
+}
+
+.fill {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border:2px solid whitesmoke;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Fuzzy Bubbles',cursive;
+}
+
+.fill::after {
+  content: "";
+  background-color: #e3d477;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+}
+
+.btn-1 {
+  margin: 10px;
+  transition: all .5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family: 'Fuzzy Bubbles',cursive;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 18px;
+  background-color: transparent;
+  padding: 8px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.btn-1:hover {
+  color: black;
+  background-color: #e3d477;
+}
