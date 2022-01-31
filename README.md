@@ -1,6 +1,6 @@
 <div align="center">
     <img width="205px" alt="logo" src="public\android-chrome-512x512.png">
-    <h1>Creating personal Cryptocurrency 🪙</h1>
+    <h1>Create your personal Cryptocurrency 🪙</h1>
 </div>
 
 > This Script generates your own tokens on the Solana blockchain.
