@@ -11,7 +11,7 @@ const App = () => {
   const [provider, setProvider] = useState();
   const [loading, setLoading] = useState();
 
-  const [isTokenCreated, setIsTokenCreated] = useState(false);
+  const [setIsTokenCreated] = useState(false);
   const [createdTokenPublicKey, setCreatedTokenPublicKey] = useState(null)
   const [mintingWalletSecretKey, setMintingWalletSecretKey] = useState(null)
 
